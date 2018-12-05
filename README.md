@@ -48,7 +48,7 @@ Because of many modern Hebrew fonts contain special characters for letters with 
 - if neither dagesh nor mappiq is allowed with letter (ayin, chet, final forms instead of pe and kaf) the result is same letter as without dead key; such behaviour is not implemented for wide forms
 - "." followed by "." result in separate dagesh (mappiq) - useful in case the font doesn't include letter with dagesh and there is necessary to composite final character
 	- such way the dagesh is typed *after* the letter
-	- e.g. b followed by two "." results in בּ
+	- e.g. b followed by two "." results in בּ (looks same as above, but still constructed from two characters)
 ### Composite sin/shin
 If font doesn't contain glyph for sin/shin with dot (very rare) or if you just want to type the sin/shin without dot, you can
 - use AltGr (Ctrl+Alt) + s to type ש
@@ -71,8 +71,8 @@ The sheva is mapped to ";" (semicolon) as dead key. The ";" followed by any key 
 
 ## Punctuation, special accents
 I've tried to by compatible with SIL keyboard (https://www.sbl-site.org/Fonts/BiblicalHebrewSILManual.pdf) if possible, differences are either marked with (*) or commented below table
-- empty position means characters mentioned above (letters, vowels, dead key for dagesh adn sheva, sin{shin dots})
-- the "x" means same character as on standard US keyboard
+- the "x" means characters mentioned above (letters, vowels, dead key for dagesh and sheva, sin{shin dots})
+- the "." means same character as on standard US keyboard
 - the alef is used just a pattern
 
 |Key   |Normal|Shift |AltGr (Ctrl+Alt)|Shift+AltGr (Ctrl+Alt)|
