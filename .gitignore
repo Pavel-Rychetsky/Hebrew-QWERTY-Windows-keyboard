@@ -2,6 +2,8 @@
 *.dll
 *.exe
 *.msi
+*.zip
 
 # Build results
 HBR_QTY/
+hbr_qty/
