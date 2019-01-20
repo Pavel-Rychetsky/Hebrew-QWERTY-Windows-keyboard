@@ -120,7 +120,7 @@ I've tried to by compatible with SIL keyboard (https://www.sbl-site.org/Fonts/Bi
 | x | א aleph|  | ﬡ wide aleph|  |
 | c | צ tsade| ץ final tsade| & ampersand |  |
 | v | ו  waw|  | @ at sign| (\*) left-to-right *200e*|
-| b | ב  vet/bet|  | @ at sign| (\*) right-to-left *200f*|
+| b | ב  vet/bet|  |  | (\*) right-to-left *200f*|
 | n | נ nun| ן final nun| \* asterisk|  (\*) zero width non-joiner *200c*|
 | m | מ mem| ם final mem| ﬦ wide final mem| zero width joiner *200d*|
 | , | , | < | « guillemets left| א̇ masora dot above *0307*|
