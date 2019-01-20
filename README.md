@@ -55,8 +55,12 @@ Because of many modern Hebrew fonts contain special characters for letters with 
 ### Composite sin/shin
 If font doesn't contain glyph for sin/shin with dot (very rare) or if you just want to type the sin/shin without dot, you can
 - use AltGr (Ctrl+Alt) + s to type ש
+and either
 - ש followed by AltGr (Ctrl+Alt) + q to type שׂ as composite
 - ש followed by Shift + AltGr (Ctrl+Alt) + q to type שׁ as composite
+or simply
+- use AltGr (Ctrl+Alt) + w to type שׂ composited from ש and ׂ
+- use Shift + AltGr (Ctrl+Alt) + w to type שׁ composited from ש and ׁ
 ## Vowels
 To type nikkud, the vowels - typed after previous consonant - are mapped following way (the alef is used just a pattern, same way the waw for holam haser):
 
