@@ -55,8 +55,8 @@ Because of many modern Hebrew fonts contain special characters for letters with 
 ### Composite sin/shin
 If font doesn't contain glyph for sin/shin with dot (very rare) or if you just want to type the sin/shin without dot, you can use
 - AltGr (Ctrl+Alt) + s to type ש
-- AltGr (Ctrl+Alt) + q to type   ׂsin dot
-- Shift + AltGr (Ctrl+Alt) + q  ׁ shin dot
+- AltGr (Ctrl+Alt) + q to type "  ׂ " - sin dot
+- Shift + AltGr (Ctrl+Alt) + q to type " ׁ  " - shin dot
 
 so either
 - ש followed by AltGr (Ctrl+Alt) + q to type שׂ as composite
