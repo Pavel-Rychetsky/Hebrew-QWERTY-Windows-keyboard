@@ -54,13 +54,13 @@ Because of many modern Hebrew fonts contain special characters for letters with 
 	- e.g. b followed by two "." results in בּ (looks same as above, but still constructed from two characters)
 ### Composite sin/shin
 If font doesn't contain glyph for sin/shin with dot (very rare) or if you just want to type the sin/shin without dot, you can use
-- AltGr (Ctrl+Alt) + s to type ש
-- AltGr (Ctrl+Alt) + q to type "  ׂ " - sin dot
-- Shift + AltGr (Ctrl+Alt) + q to type " ׁ  " - shin dot
+- Shift + s to type ש
+- AltGr (Ctrl+Alt) + s to type "  ׂ " - sin dot
+- Shift + AltGr (Ctrl+Alt) + s to type " ׁ  " - shin dot
 
 so either
-- ש followed by AltGr (Ctrl+Alt) + q to type שׂ as composite
-- ש followed by Shift + AltGr (Ctrl+Alt) + q to type שׁ as composite
+- ש (Shift + s) followed by AltGr (Ctrl+Alt) + s results in שׂ as composite
+- ש (Shift + s) followed by Shift + AltGr (Ctrl+Alt) + s results in שׁ as composite
 
 or (more simply by just one key covering both ש and proper dot)
 - AltGr (Ctrl+Alt) + w to type שׂ as composite
