@@ -34,7 +34,7 @@ The purpose of this project is to develop Windows keyboard which maps Hebrew let
 |l|ל lamed||wide ﬥ|
 |m|מ mem|ם final|wide ﬦ final|
 |n|נ nun|ן final||
-|s|ס samech||ש sin/shin (without dot)|
+|s|ס samech|ש sin/shin (without dot)||
 |y*|ע (ayin)|||
 |p|פ fe/pe|ף final||
 |c|צ tsade|ץ final||
@@ -100,7 +100,7 @@ I've tried to by compatible with SIL keyboard (https://www.sbl-site.org/Fonts/Bi
 | 0 | 0 | ) | א֪ yerah ben yomo *05aa*| א֯ masora circle *05af*|
 | - | ◌־◌ maqaf *05be*| – en dash *2013*| — em dash *2014*| אֿ rafe *05bf*|
 | = | = | + | א֑ etnahta *0591*| ◌ dotted circle *25cc*|
-| q | ק |  |  ׂsin dot *05c2*| ׁ shin dot *05c1*|
+| q | ק |  |  |  |
 | w | שׂ sin| שׁ shin| שׂ sin composite| שׁ shin composite|
 | e | אֶ segol| אֵ tsere| אֱ hataf segol|  |
 | r | ר resh|  | ﬧ wide resh|  |
@@ -114,7 +114,7 @@ I've tried to by compatible with SIL keyboard (https://www.sbl-site.org/Fonts/Bi
 | ] | ] | } |  א֚ yetiv *059a*| א֒ segolta *0592*|
 | \ | ׀ paseq *05c0*| \ backslash(\*)| א֤ mahapakh *05a4*| א֫ ole *05ab*|
 | a | אַ patah| אָ kamats| אֲ hataf patah| אֳ hataf kamats|
-| s | ס samekh|  | ש sin/shin without dot|  |
+| s | ס samekh| ש sin/shin without dot| ׂ sin dot *05c2*| ׁ shin dot *05c1*|
 | d | ד dalet|  | ﬢ wide dalet|  |
 | f |  |  |  | ◦ (\*)white bullet *25e6*|
 | g | ג gimel|  |  | • bullet 2022|
