@@ -11,7 +11,7 @@ The purpose of this project is to develop Windows keyboard which maps Hebrew let
 - according phonetic similarity of letter with dagesh
     - b, k, p
 - according visual similarity
-    - x for alef
+    - x for aleph
     - y for ayin
     - w/W for sin/shin
 - specialities
@@ -25,7 +25,7 @@ The purpose of this project is to develop Windows keyboard which maps Hebrew let
 
 |Key   |Normal|Shift |AltGr (Ctrl+Alt)|
 |----- |------|------|------|
-|x|א alef||wide ﬡ|
+|x|א aleph||wide ﬡ|
 |b|ב vet/bet|||
 |g|ג gimmel|||
 |d|ד dalet||wide ﬢ|
@@ -79,7 +79,7 @@ or (more simply by just one key covering both ש and proper dot)
 
 ## Vowels
 
-To type nikkud, the vowels - typed after previous consonant - are mapped following way (the alef is used just a pattern, same way the waw for holam haser):
+To type nikkud, the vowels - typed after previous consonant - are mapped following way:
 
 |Key   |Normal|Shift |AltGr (Ctrl+Alt)|Shift+AltGr (Ctrl+Alt)|
 |-----|-------|------|------|------|
@@ -99,7 +99,7 @@ The sheva is mapped to ";" (semicolon). The semicolon itself is mapped to AltGr+
 
 ## Punctuation, special accents
 
-I've tried to by compatible with SIL keyboard (https://www.sbl-site.org/Fonts/BiblicalHebrewSILManual.pdf) if possible
+I've tried to by compatible with SIL keyboard (https://www.sbl-site.org/Fonts/BiblicalHebrewSILManual.pdf) if possible.
 Differences are marked with (*).
 
 |Key   |Normal|Shift |AltGr (Ctrl+Alt)|Shift+AltGr (Ctrl+Alt)|
@@ -136,11 +136,11 @@ Differences are marked with (*).
 | f |  |  |  | ◦ (\*)white bullet *25e6*|
 | g | ג gimel|  |  | • bullet 2022|
 | h | ה he| ח het| ﬣ wide he(\*) | ◌̊ &nbsp;ring above *030a*|
-| j | י yod|  |  | ̶  (\*)long stroke *0336*|
+| j | י yod|  |  | ̶  (\*) long stroke *0336*|
 | k | כ chaf/kaf| ך final chaf/kaf| ﬤ wide chaf/kaf|  |
 | l | ל lamed|  | ﬥ wide lamed|  |
 | ; |  sheva| ״ gershayim (punctuation) *05f4*| ; semicolon dead key| ׃ sof pasuq *05c3*|
-| ' | ’ right single quotation *2019*| ” right double quotation *201d*| ̣  punctum *0323*| אׄ upper dot *05c4*|
+| ' | ’ right single quotation *2019*| ” right double quotation *201d*| ̣ &nbsp;punctum *0323*| אׄ upper dot *05c4*|
 | z | ז zayin|  | # number sign|  |
 | x | א aleph|  | ﬡ wide aleph|  |
 | c | צ tsade| ץ final tsade| & ampersand |  |
