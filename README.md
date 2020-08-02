@@ -18,9 +18,9 @@ The purpose of this project is to develop Windows keyboard which maps Hebrew let
     - v for waw as "w" is pronounced close to "v" in some languages
     - T for tet (tav is used more frequently)
     - H for chet
-    - Shift+y for alternative ayin
-    - AltGr (Ctrl+Alt)+s for sin *without* dot
-    - AltGr (Ctrl+Alt)+n for inverted nun
+    - Shift+y for alternative ayin ﬠ
+    - Shift+s for sin ש *without* dot
+    - AltGr (Ctrl+Alt)+n for inverted nun ׆
     - f is not used
 - the final forms are written with Shift
 - the wide forms are written with AltGr (Ctrl+Alt) including final mem
@@ -65,19 +65,19 @@ Because of many modern Hebrew fonts contain special characters for letters with 
 
 If font doesn't contain glyph for sin/shin with dot (very rare) or if you just want to type the sin/shin without dot, you can use
 
-- Shift + s to type ש
-- AltGr (Ctrl+Alt) + s to type "  ׂ " - sin dot
-- Shift + AltGr (Ctrl+Alt) + s to type " ׁ  " - shin dot
+- Shift+s to type ש
+- AltGr (Ctrl+Alt)+s to type ◌ׂ - sin dot
+- Shift+AltGr (Ctrl+Alt)+s to type ◌ׁ - shin dot
 
 so either
 
-- ש (Shift + s) followed by AltGr (Ctrl+Alt) + s results in שׂ as composite
-- ש (Shift + s) followed by Shift + AltGr (Ctrl+Alt) + s results in שׁ as composite
+- ש (Shift+s) followed by AltGr (Ctrl+Alt)+s results in שׂ as composite
+- ש (Shift+s) followed by Shift + AltGr (Ctrl+Alt)+s results in שׁ as composite
 
 or (more simply by just one key covering both ש and proper dot)
 
-- AltGr (Ctrl+Alt) + w to type שׂ as composite
-- Shift + AltGr (Ctrl+Alt) + w to type שׁ as composite
+- AltGr (Ctrl+Alt)+w to type שׂ as composite
+- Shift+AltGr (Ctrl+Alt)+w to type שׁ as composite
 
 ## Vowels
 
@@ -133,7 +133,7 @@ Differences are marked with (*).
 | ] | ] | } |  ◌֚ &nbsp;yetiv *059a*| ◌֒ &nbsp;segolta *0592*|
 | \ | ׀ paseq *05c0*| \ backslash(\*)| ◌֤ &nbsp;mahapakh *05a4*| ◌֫ &nbsp;ole *05ab* (can be used also as stress marker)|
 | a | ◌ַ &nbsp;patah| ◌ָ &nbsp;kamats| ◌ֲ &nbsp;hataf patah| ◌ֳ &nbsp;hataf kamats|
-| s | ס samekh| ש sin/shin without dot| ׂ sin dot *05c2*| ׁ shin dot *05c1*|
+| s | ס samekh| ש sin/shin without dot| ◌ׂ sin dot *05c2*| ◌ׁ shin dot *05c1*|
 | d | ד dalet|  | ﬢ wide dalet|  |
 | f |  |  |  | ◦ (\*)white bullet *25e6*|
 | g | ג gimel|  |  | • bullet 2022|
@@ -142,7 +142,7 @@ Differences are marked with (*).
 | k | כ chaf/kaf| ך final chaf/kaf| ﬤ wide chaf/kaf|  |
 | l | ל lamed|  | ﬥ wide lamed|  |
 | ; |  sheva| ״ gershayim (punctuation) *05f4*| ; semicolon dead key| ׃ sof pasuq *05c3*|
-| ' | ’ right single quotation *2019*| ” right double quotation *201d*| ̣ &nbsp;punctum *0323*| אׄ upper dot *05c4*|
+| ' | ’ right single quotation *2019*| ” right double quotation *201d*| ̣ &nbsp;punctum *0323*| ◌ׄ upper dot *05c4*|
 | z | ז zayin|  | # number sign|  |
 | x | א aleph|  | ﬡ wide aleph|  |
 | c | צ tsade| ץ final tsade| & ampersand |  |
