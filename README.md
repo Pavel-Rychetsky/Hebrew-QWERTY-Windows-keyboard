@@ -1,6 +1,6 @@
 # Hebrew-QWERTY-Windows-keyboard
 
-The purpose of this project is to develop Windows keyboard which maps Hebrew letters according their phonetic or visual similarity with English (ASCII) letters.
+The purpose of this project is to develop Windows keyboard which maps Hebrew letters according their phonetic or visual similarity with English (ASCII) letters. The keyboard can be used for both Modern and Biblical Hebrew because of wide support of vowels (nikkud) and cantillation marks.
 
 ## Letters
 
@@ -131,7 +131,7 @@ Differences are marked with (*).
 | p | פ fe/pe| ף final fe/pe|  | ͏ combine grapheme joiner *034f*|
 | [ | [ | { | | ◌֔ &nbsp;zaqef qatam *0594*|
 | ] | ] | } |  ◌֚ &nbsp;yetiv *059a*| ◌֒ &nbsp;segolta *0592*|
-| \ | ׀ paseq *05c0*| \ backslash(\*)| ◌֤ &nbsp;mahapakh *05a4*| ◌֫ &nbsp;ole *05ab*|
+| \ | ׀ paseq *05c0*| \ backslash(\*)| ◌֤ &nbsp;mahapakh *05a4*| ◌֫ &nbsp;ole *05ab* (can be used also as stress marker)|
 | a | ◌ַ &nbsp;patah| ◌ָ &nbsp;kamats| ◌ֲ &nbsp;hataf patah| ◌ֳ &nbsp;hataf kamats|
 | s | ס samekh| ש sin/shin without dot| ׂ sin dot *05c2*| ׁ shin dot *05c1*|
 | d | ד dalet|  | ﬢ wide dalet|  |
