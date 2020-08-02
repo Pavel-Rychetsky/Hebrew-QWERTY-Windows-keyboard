@@ -15,10 +15,12 @@ The purpose of this project is to develop Windows keyboard which maps Hebrew let
     - y for ayin
     - w/W for sin/shin
 - specialities
-    - v for waw as "w" is  pronounced close to "v" in some languages
+    - v for waw as "w" is pronounced close to "v" in some languages
     - T for tet (tav is used more frequently)
     - H for chet
+    - Shift+y for alternative ayin
     - AltGr (Ctrl+Alt)+s for sin *without* dot
+    - AltGr (Ctrl+Alt)+n for inverted nun
     - f is not used
 - the final forms are written with Shift
 - the wide forms are written with AltGr (Ctrl+Alt) including final mem
@@ -37,9 +39,9 @@ The purpose of this project is to develop Windows keyboard which maps Hebrew let
 |k|כ chaf/kaf|ך final|wide ﬤ|
 |l|ל lamed||wide ﬥ|
 |m|מ mem|ם final|wide ﬦ final|
-|n|נ nun|ן final||
+|n|נ nun|ן final|׆ inverted|
 |s|ס samech|ש sin/shin (without dot)||
-|y*|ע (ayin)|||
+|y*|ע ayin|ﬠ alternative||
 |p|פ fe/pe|ף final||
 |c|צ tsade|ץ final||
 |q|ק qof|||
@@ -122,7 +124,7 @@ Differences are marked with (*).
 | e | ◌ֶ &nbsp;segol| ◌ֵ &nbsp;tsere| ◌ֱ &nbsp;hataf segol|  |
 | r | ר resh|  | ﬧ wide resh|  |
 | t | ת tav| ט tet| ﬨ wide tav|  |
-| y | ע ayin|  |  |  |
+| y | ע ayin| ﬠ alternative ayin|  |  |
 | u | ◌ֻ &nbsp;kubuts| וּ◌ &nbsp;shuruk|  |  |
 | i | ◌ִ &nbsp;hiriq| י◌ִ &nbsp;hiriq yod|  |  |
 | o | ◌ֹ &nbsp;holam| וֹ◌ &nbsp;holam male| ◌ׇ &nbsp;kamats hatuf | ◌ֺ &nbsp;holam haser for waw|
@@ -145,8 +147,8 @@ Differences are marked with (*).
 | x | א aleph|  | ﬡ wide aleph|  |
 | c | צ tsade| ץ final tsade| & ampersand |  |
 | v | ו  waw|  | @ at sign| (\*) left-to-right *200e*|
-| b | ב  vet/bet|  |  | (\*) right-to-left *200f*|
-| n | נ nun| ן final nun| \* asterisk|  (\*) zero width non-joiner *200c*|
+| b | ב  vet/bet|  | (\*) \* asterisk| (\*) right-to-left *200f*|
+| n | נ nun| ן final nun| ׆ inverted nun|  (\*) zero width non-joiner *200c*|
 | m | מ mem| ם final mem| ﬦ wide final mem| zero width joiner *200d*|
 | , | , | < | « guillemets left| ◌̇ &nbsp;masora dot above *0307*|
 | . | ּ &nbsp;dagesh/mappiq dead key| > | » guillemets right| ◌̈ &nbsp;thousands *0308*|
