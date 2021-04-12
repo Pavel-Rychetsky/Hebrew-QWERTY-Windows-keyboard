@@ -93,10 +93,10 @@ To type nikkud, the vowels - typed after previous consonant - are mapped followi
 
 |Key   |Normal|Shift |AltGr (Ctrl+Alt)|Shift+AltGr (Ctrl+Alt)|
 |:-----|:-------|:------|:------|:------|
-|a| ◌ַ &nbsp;patah| ◌ָ &nbsp;kamats| ◌ֲ &nbsp;hataf patah| ◌ֳ &nbsp;hataf kamats|
+|a| ◌ַ &nbsp;patah| ◌ָ &nbsp;kamatz| ◌ֲ &nbsp;hataf patah| ◌ֳ &nbsp;hataf kamatz|
 |e| ◌ֶ &nbsp;segol | ◌ֵ &nbsp;tsere| ◌ֱ &nbsp;hataf segol|  |
 |i| ◌ִ &nbsp;hiriq | י◌ִ &nbsp;hiriq yod|  |  |
-|o| ◌ֹ &nbsp;holam | וֹ◌ &nbsp;holam male| ◌ׇ &nbsp;kamats hatuf| ◌ֺ &nbsp;holam haser for waw\*|
+|o| ◌ֹ &nbsp;holam | וֹ◌ &nbsp;holam male| ◌ׇ &nbsp;kamatz katan (kamatz hatuf)| ◌ֺ &nbsp;holam haser for waw\*|
 |u| ◌ֻ &nbsp;kubuts | וּ◌ &nbsp;shuruk|  |  |
 
 \* Compare וֹ (waw with holam) and וֺ (waw with holam haser).
@@ -106,7 +106,7 @@ Because of hataf (composite sheva) vowels are often used, there are alternative 
 |"." followed by|result|
 |:-----|:-----|
 |a| ◌ֳ &nbsp;hataf patah|
-|A (Shift+a)| ◌ֳ &nbsp;hataf kamats|
+|A (Shift+a)| ◌ֳ &nbsp;hataf kamatz|
 |e| ◌ֱ &nbsp;hataf segol|
 
 ### Sheva
@@ -128,7 +128,7 @@ Differences are marked with (\*). *4-char* string in italic is Unicode code of c
 | 3 | 3 | ◌֨ &nbsp;qadma *05a8*| ◌֖ &nbsp;tipeha *0596*| ◌֙ &nbsp;pashta *0599*|
 | 4 | 4 | ◌֜ &nbsp;geresh (accent) *059c*| ◌֥ &nbsp;merkha *05a5*| ◌֠ &nbsp;telisha gedola *05a0*|
 | 5 | 5 | ◌֞ &nbsp;gershayim (accent) *059e*| ◌֦ &nbsp;merkha kefula *05a6*| ◌֩ &nbsp;telisha qetana *05a9*|
-| 6 | 6 |  | ◌֭ &nbsp;degi *05ad*| ◌֟ &nbsp;qarnez para *059f*|
+| 6 | 6 |  | ◌֭ &nbsp;dehi *05ad*| ◌֟ &nbsp;qarnez para *059f*|
 | 7 | 7 | ◌֬ &nbsp;ilum *05ac*| ◌֣ &nbsp;munah *05a3*| ◌֡ &nbsp;payer *05a1*|
 | 8 | 8 | ◌֝ &nbsp;geresh muqdam *059d*| ◌֛ &nbsp;tevir *059b*| ◌֕ &nbsp;zaqef gadol *0595*|
 | 9 | 9 | ( | ◌֧ &nbsp;darga *05a7*| ◌֓ &nbsp;shalshelet *0593*|
@@ -143,22 +143,22 @@ Differences are marked with (\*). *4-char* string in italic is Unicode code of c
 | y | ע ayin| ﬠ alternative ayin|  |  |
 | u | ◌ֻ &nbsp;kubuts| וּ◌ &nbsp;shuruk|  |  |
 | i | ◌ִ &nbsp;hiriq| י◌ִ &nbsp;hiriq yod|  |  |
-| o | ◌ֹ &nbsp;holam| וֹ◌ &nbsp;holam male| ◌ׇ &nbsp;kamats hatuf | ◌ֺ &nbsp;holam haser for waw|
+| o | ◌ֹ &nbsp;holam| וֹ◌ &nbsp;holam male| ◌ׇ &nbsp;kamatz katan (kamatz hatuf) | ◌ֺ &nbsp;holam haser for waw|
 | p | פ fe/pe| ף final fe/pe|  | ͏ combine grapheme joiner *034f*|
 | [ | [ | { | | ◌֔ &nbsp;zaqef qatam *0594*|
 | ] | ] | } |  ◌֚ &nbsp;yetiv *059a*| ◌֒ &nbsp;segolta *0592*|
 | \ | ׀ paseq *05c0*| \ backslash(\*)| ◌֤ &nbsp;mahapakh *05a4*| ◌֫ &nbsp;ole *05ab* (can be used also as stress marker)|
-| a | ◌ַ &nbsp;patah| ◌ָ &nbsp;kamats| ◌ֲ &nbsp;hataf patah| ◌ֳ &nbsp;hataf kamats|
+| a | ◌ַ &nbsp;patah| ◌ָ &nbsp;kamatz| ◌ֲ &nbsp;hataf patah| ◌ֳ &nbsp;hataf kamatz|
 | s | ס samekh| ש sin/shin without dot| ׂ◌ sin dot *05c2*| ׁ◌ shin dot *05c1*|
 | d | ד dalet|  | ﬢ wide dalet|  |
 | f |  |  |  | ◦ (\*)white bullet *25e6*|
 | g | ג gimel|  |  | • bullet 2022|
 | h | ה he| ח het| ﬣ wide he(\*) | ◌̊ &nbsp;ring above *030a*|
-| j | י yod|  |  | ̶  (\*) long stroke *0336*|
+| j | י yod|  |  | ◌̶ (\*) long stroke *0336*|
 | k | כ chaf/kaf| ך final chaf/kaf| ﬤ wide chaf/kaf|  |
 | l | ל lamed|  | ﬥ wide lamed|  |
 | ; |  sheva| ״ gershayim (punctuation) *05f4*| ; semicolon dead key| ׃ sof pasuq *05c3*|
-| ' | ’ right single quotation *2019*| ” right double quotation *201d*| ̣ &nbsp;punctum *0323*| ◌ׄ upper dot *05c4*|
+| ' | ’ right single quotation *2019*| ” right double quotation *201d*| ̣ &nbsp;lower dot *05c5*| ◌ׄ upper dot *05c4*|
 | z | ז zayin|  | # number sign|  |
 | x | א aleph|  | ﬡ wide aleph|  |
 | c | צ tsade| ץ final tsade| & ampersand |  |
