@@ -5,7 +5,7 @@ The purpose of this project is to develop Windows keyboard which maps Hebrew let
 ## How to install
 - the installation is validated in Windows 10 environment, very probably in Windows 7/8 it will work well
 - if not yet, activate support for Hebrew language (e.g. Windows_key+i - Time & Language - Language - Add a language) first
-- download hbr_qty.zip from https://github.com/Pavel-Rychetsky/Hebrew-QWERTY-Windows-keyboard/releases/latest and unzip it
+- download hbr_qty.zip from [here](https://github.com/Pavel-Rychetsky/Hebrew-QWERTY-Windows-keyboard/releases/latest) and unzip it
 - run setup.exe from hbr_qty directory
 - the installed keyboard appears in system as "Hebrew - QWERTY"
 - optionally remove default keyboard (Hebrew or Hebrew (Standard))
@@ -115,7 +115,7 @@ The sheva is mapped to ";" (semicolon). The semicolon itself is mapped to AltGr+
 
 ## Punctuation, special accents
 
-I've tried to by compatible with SIL keyboard (https://www.sbl-site.org/Fonts/BiblicalHebrewSILManual.pdf) if possible.
+I've tried to by compatible with [SIL keyboard](https://www.sbl-site.org/Fonts/BiblicalHebrewSILManual.pdf) if possible.
 Differences are marked with (*).
 
 |Key   |Normal|Shift |AltGr (Ctrl+Alt)|Shift+AltGr (Ctrl+Alt)|
