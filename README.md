@@ -74,8 +74,8 @@ Because of many new Hebrew fonts contain special characters for letters with dag
 If font doesn't contain glyph for sin/shin with dot (very rare) or if you just want to type the sin/shin without dot, you can use
 
 - S (Shift+s) to type ש
-- AltGr (Ctrl+Alt)+s to type ◌ׂ - sin dot
-- Shift+AltGr (Ctrl+Alt)+s to type ◌ׁ - shin dot
+- AltGr (Ctrl+Alt)+s to type ׂ◌ - sin dot
+- Shift+AltGr (Ctrl+Alt)+s to type ׁ◌ - shin dot
 
 so either
 
@@ -149,7 +149,7 @@ Differences are marked with (\*). *4-char* string in italic is Unicode code of c
 | ] | ] | } |  ◌֚ &nbsp;yetiv *059a*| ◌֒ &nbsp;segolta *0592*|
 | \ | ׀ paseq *05c0*| \ backslash(\*)| ◌֤ &nbsp;mahapakh *05a4*| ◌֫ &nbsp;ole *05ab* (can be used also as stress marker)|
 | a | ◌ַ &nbsp;patah| ◌ָ &nbsp;kamats| ◌ֲ &nbsp;hataf patah| ◌ֳ &nbsp;hataf kamats|
-| s | ס samekh| ש sin/shin without dot| ◌ׂ sin dot *05c2*| ◌ׁ shin dot *05c1*|
+| s | ס samekh| ש sin/shin without dot| ׂ◌ sin dot *05c2*| ׁ◌ shin dot *05c1*|
 | d | ד dalet|  | ﬢ wide dalet|  |
 | f |  |  |  | ◦ (\*)white bullet *25e6*|
 | g | ג gimel|  |  | • bullet 2022|
