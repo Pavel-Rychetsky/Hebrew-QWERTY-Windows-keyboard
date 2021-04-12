@@ -2,6 +2,14 @@
 
 The purpose of this project is to develop Windows keyboard which maps Hebrew letters according their phonetic or visual similarity with English (ASCII) letters. The keyboard can be used for both Modern and Biblical Hebrew because of wide support of vowels (nikkud) and cantillation marks.
 
+## How to install
+- the installation is validated in Windows 10 environment, very probably in Windows 7/8 it will work well
+- if not yet, activate support for Hebrew language (e.g. Windows_key+i - Time & Language - Language - Add a language) first
+- download hbr_qty.zip from https://github.com/Pavel-Rychetsky/Hebrew-QWERTY-Windows-keyboard/releases/latest and unzip it
+- run setup.exe from hbr_qty directory
+- the installed keyboard appears in system as "Hebrew - QWERTY"
+- optionally remove default keyboard (Hebrew or Hebrew (Standard))
+
 ## Letters
 
 22 Hebrew letters are mapped to 20 keys (because of a, e, i, o, and u are reserved for vowels - see below) following way:
@@ -18,11 +26,11 @@ The purpose of this project is to develop Windows keyboard which maps Hebrew let
     - v for waw as "w" is pronounced close to "v" in some languages
     - T for tet (tav is used more frequently)
     - H for chet
-    - Shift+y for alternative ayin ﬠ
-    - Shift+s for sin ש *without* dot
+    - Y for alternative ayin ﬠ (some editors and typesetting systems automatically use the alternative variant, e.g. MS Word, XeTeX)
+    - S for sin ש *without* dot
     - AltGr (Ctrl+Alt)+n for inverted nun ׆
     - f is not used
-- the final forms are written with Shift
+- the final forms are written with Shift (K, M, N, P, C)
 - the wide forms are written with AltGr (Ctrl+Alt) including final mem
 
 |Key   |Normal|Shift |AltGr (Ctrl+Alt)|
@@ -65,7 +73,7 @@ Because of many modern Hebrew fonts contain special characters for letters with 
 
 If font doesn't contain glyph for sin/shin with dot (very rare) or if you just want to type the sin/shin without dot, you can use
 
-- Shift+s to type ש
+- S (Shift+s) to type ש
 - AltGr (Ctrl+Alt)+s to type ◌ׂ - sin dot
 - Shift+AltGr (Ctrl+Alt)+s to type ◌ׁ - shin dot
 
@@ -92,6 +100,12 @@ To type nikkud, the vowels - typed after previous consonant - are mapped followi
 |u| ◌ֻ &nbsp;kubuts | וּ◌ &nbsp;shuruk|  |  |
 
 \* Compare וֹ (waw with holam) and וֺ (waw with holam haser).
+
+Because of hataf (composite sheva) vowels are often used, there are alternative ways based on dead key ".", i.e. same for dagesh
+
+- "." followed by a results in ◌ֲ &nbsp;hataf patah
+- "." followed by A (Shift+a) results in ◌ֳ &nbsp;hataf kamats
+- "." followed by e results in | ◌ֱ &nbsp;hataf segol
 
 ### Sheva
 
@@ -153,3 +167,9 @@ Differences are marked with (*).
 | , | , | < | « guillemets left| ◌̇ &nbsp;masora dot above *0307*|
 | . | ּ &nbsp;dagesh/mappiq dead key| > | » guillemets right| ◌̈ &nbsp;thousands *0308*|
 | / | / | ? | ׳ geresh (punctuation) *05f3*|  |
+
+There are alternatives based on dead key "." (i.e. same for dagesh) again
+
+- "." followed by : results in ׃ sof pasuq *05c3*
+- "." followed by o results in ◌ dotted circle *25cc* which is used as vowel base in textbooks and grammars; in MS Word the dotted circle is created automatically as the vowel is inputted simultaneously
+- "." followed by "<" (Shift+,) results in ◌֫ &nbsp;ole *05ab* which can be used as stress marker
