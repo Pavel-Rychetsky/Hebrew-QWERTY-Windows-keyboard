@@ -61,7 +61,7 @@ The purpose of this project is to develop Windows keyboard which maps Hebrew let
 
 ### Letters with dagesh / mappiq
 
-Because of many modern Hebrew fonts contain special characters for letters with dagesh or mappiq I've decided to implement dagesh as dead key mapped to "." (period)
+Because of many new Hebrew fonts contain special characters for letters with dagesh or mappiq I've decided to implement dagesh as dead key mapped to "." (period)
 
 - e.g. "." followed by b results in בּ
 - if neither dagesh nor mappiq is allowed with letter (ayin, chet, final forms instead of pe and kaf) the result is same letter as without dead key; such behaviour is not implemented for wide forms
@@ -103,9 +103,11 @@ To type nikkud, the vowels - typed after previous consonant - are mapped followi
 
 Because of hataf (composite sheva) vowels are often used, there are alternative ways based on dead key ".", i.e. same for dagesh
 
-- "." followed by a results in ◌ֲ &nbsp;hataf patah
-- "." followed by A (Shift+a) results in ◌ֳ &nbsp;hataf kamats
-- "." followed by e results in | ◌ֱ &nbsp;hataf segol
+|"." followed by|result|
+|-----|-----|
+|a| ◌ֳ &nbsp;hataf patah|
+|A (Shift+a)| ◌ֳ &nbsp;hataf kamats|
+|e| ◌ֱ &nbsp;hataf segol|
 
 ### Sheva
 
@@ -170,6 +172,10 @@ Differences are marked with (*).
 
 There are alternatives based on dead key "." (i.e. same for dagesh) again
 
-- "." followed by : results in ׃ sof pasuq *05c3*
-- "." followed by o results in ◌ dotted circle *25cc* which is used as vowel base in textbooks and grammars; in MS Word the dotted circle is created automatically as the vowel is inputted simultaneously
-- "." followed by "<" (Shift+,) results in ◌֫ &nbsp;ole *05ab* which can be used as stress marker
+|"." followed by|result|
+|-----|-----|
+|:| ׃ sof pasuq *05c3*|
+|o| ◌ dotted circle *25cc*|
+|"<" (Shift+,)| ◌֫ &nbsp;ole *05ab* which can be used as stress marker|
+
+( ◌ dotted circle is used as vowel base in textbooks and grammars; in MS Word the dotted circle is created automatically as the vowel is inputted simultaneously)
